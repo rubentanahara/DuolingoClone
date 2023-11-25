@@ -1,9 +1,9 @@
+import PropTypes from "prop-types";
 import React, { useState } from "react";
 import { Text, View } from "react-native";
-import styles from "./styles";
-import ImageOption from "../ImageOption";
 import Button from "../Button";
-import PropTypes from "prop-types";
+import ImageOption from "../ImageOption";
+import styles from "./styles";
 
 const ImageMultipleChoiceQuestion = ({
   question,

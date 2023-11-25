@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { View, Text, Image, TextInput } from "react-native";
-import styles from "./styles";
+import { Image, Text, TextInput, View } from "react-native";
 import mascot from "../../../assets/images/mascot.png";
 import Button from "../../components/Button";
+import styles from "./styles";
 
 const OpenEndedQuestion = ({
   question,
