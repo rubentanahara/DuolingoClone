@@ -73,11 +73,11 @@ const App = () => {
         setCurrentQuestion(parseInt(currentQuestion));
         setHasLoaded(true);
     };
-    if (!hasLoaded) {
-        return (
-            <ActivityIndicator size="large" style={{ flex: 1 }} color="#FAD131" />
-        );
-    }
+    // if (!hasLoaded) {
+    //     return (
+    //         <ActivityIndicator size="large" style={{ flex: 1 }} color="#FAD131" />
+    //     );
+    // }
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={styles.container}>
